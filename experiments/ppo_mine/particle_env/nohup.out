@@ -1,0 +1,540 @@
+srun: job 55771353 queued and waiting for resources
+srun: job 55771353 has been allocated resources
+wandb: Tracking run with wandb version 0.9.5
+wandb: Wandb version 0.10.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Run data is saved locally in wandb/run-20200920_103902-2110i30v
+wandb: Syncing run c2b_coslr_0.005_10:39:00
+wandb: ⭐️ View project at https://app.wandb.ai/kargarisaac/particle
+wandb: 🚀 View run at https://app.wandb.ai/kargarisaac/particle/runs/2110i30v
+wandb: Run `wandb off` to turn off syncing.
+
+batch_count: 10.670081092616305
+Iteration: 0,  Mean reward: -148.80, Mean Entropy: 1.59, Mean collision: 77.00, Mean min dist: 135.09, Mean occupied landmark: 6.30, complete_episode_count: 2000.00, Gather time: 41.70s, Train time: 30.31s, Eval Time: 0.42s
+=====================================================
+Iteration: 1,  Mean reward: -144.20, Mean Entropy: 1.53, Mean collision: 76.70, Mean min dist: 133.47, Mean occupied landmark: 4.65, complete_episode_count: 2000.00, Gather time: 34.04s, Train time: 34.39s, Eval Time: 0.42s
+=====================================================
+Iteration: 2,  Mean reward: -144.96, Mean Entropy: 1.51, Mean collision: 75.90, Mean min dist: 127.98, Mean occupied landmark: 10.20, complete_episode_count: 2000.00, Gather time: 38.97s, Train time: 31.60s, Eval Time: 0.44s
+=====================================================
+Iteration: 3,  Mean reward: -146.21, Mean Entropy: 1.50, Mean collision: 75.60, Mean min dist: 135.94, Mean occupied landmark: 6.15, complete_episode_count: 2000.00, Gather time: 37.46s, Train time: 33.42s, Eval Time: 0.42s
+=====================================================
+Iteration: 4,  Mean reward: -159.38, Mean Entropy: 1.50, Mean collision: 77.30, Mean min dist: 141.83, Mean occupied landmark: 3.75, complete_episode_count: 2000.00, Gather time: 37.91s, Train time: 31.05s, Eval Time: 0.42s
+=====================================================
+Iteration: 5,  Mean reward: -153.35, Mean Entropy: 1.50, Mean collision: 76.10, Mean min dist: 141.43, Mean occupied landmark: 3.00, complete_episode_count: 2000.00, Gather time: 40.08s, Train time: 34.97s, Eval Time: 0.42s
+=====================================================
+Iteration: 6,  Mean reward: -141.20, Mean Entropy: 1.48, Mean collision: 75.70, Mean min dist: 126.63, Mean occupied landmark: 3.90, complete_episode_count: 2000.00, Gather time: 38.13s, Train time: 37.63s, Eval Time: 0.43s
+=====================================================
+Iteration: 7,  Mean reward: -148.07, Mean Entropy: 1.43, Mean collision: 78.60, Mean min dist: 130.50, Mean occupied landmark: 5.70, complete_episode_count: 2000.00, Gather time: 38.59s, Train time: 36.43s, Eval Time: 0.42s
+=====================================================
+Iteration: 8,  Mean reward: -150.84, Mean Entropy: 1.41, Mean collision: 76.30, Mean min dist: 135.93, Mean occupied landmark: 4.50, complete_episode_count: 2000.00, Gather time: 35.98s, Train time: 36.06s, Eval Time: 0.52s
+=====================================================
+Iteration: 9,  Mean reward: -143.61, Mean Entropy: 1.37, Mean collision: 76.50, Mean min dist: 139.35, Mean occupied landmark: 5.40, complete_episode_count: 2000.00, Gather time: 37.33s, Train time: 35.90s, Eval Time: 0.43s
+=====================================================
+Iteration: 10,  Mean reward: -133.41, Mean Entropy: 1.36, Mean collision: 77.50, Mean min dist: 117.88, Mean occupied landmark: 4.35, complete_episode_count: 2000.00, Gather time: 36.97s, Train time: 37.00s, Eval Time: 0.42s
+=====================================================
+Iteration: 11,  Mean reward: -140.46, Mean Entropy: 1.33, Mean collision: 77.40, Mean min dist: 120.19, Mean occupied landmark: 5.40, complete_episode_count: 2000.00, Gather time: 36.72s, Train time: 36.22s, Eval Time: 0.42s
+=====================================================
+Iteration: 12,  Mean reward: -136.73, Mean Entropy: 1.34, Mean collision: 77.40, Mean min dist: 115.53, Mean occupied landmark: 7.05, complete_episode_count: 2000.00, Gather time: 35.66s, Train time: 37.91s, Eval Time: 0.43s
+=====================================================
+Iteration: 13,  Mean reward: -142.99, Mean Entropy: 1.31, Mean collision: 77.60, Mean min dist: 131.78, Mean occupied landmark: 3.60, complete_episode_count: 2000.00, Gather time: 36.72s, Train time: 35.87s, Eval Time: 0.43s
+=====================================================
+Iteration: 14,  Mean reward: -143.76, Mean Entropy: 1.27, Mean collision: 77.00, Mean min dist: 126.14, Mean occupied landmark: 5.55, complete_episode_count: 2000.00, Gather time: 41.03s, Train time: 30.10s, Eval Time: 0.43s
+=====================================================
+Iteration: 15,  Mean reward: -131.38, Mean Entropy: 1.26, Mean collision: 76.50, Mean min dist: 111.93, Mean occupied landmark: 11.70, complete_episode_count: 2000.00, Gather time: 36.25s, Train time: 36.26s, Eval Time: 0.42s
+=====================================================
+Iteration: 16,  Mean reward: -137.35, Mean Entropy: 1.24, Mean collision: 78.60, Mean min dist: 120.08, Mean occupied landmark: 5.70, complete_episode_count: 2000.00, Gather time: 37.85s, Train time: 35.54s, Eval Time: 0.43s
+=====================================================
+Iteration: 17,  Mean reward: -139.93, Mean Entropy: 1.18, Mean collision: 77.80, Mean min dist: 112.22, Mean occupied landmark: 9.90, complete_episode_count: 2000.00, Gather time: 35.97s, Train time: 35.50s, Eval Time: 0.42s
+=====================================================
+Iteration: 18,  Mean reward: -133.19, Mean Entropy: 1.20, Mean collision: 77.30, Mean min dist: 111.00, Mean occupied landmark: 7.50, complete_episode_count: 2000.00, Gather time: 37.94s, Train time: 37.73s, Eval Time: 0.43s
+=====================================================
+Iteration: 19,  Mean reward: -122.68, Mean Entropy: 1.15, Mean collision: 76.50, Mean min dist: 99.13, Mean occupied landmark: 11.55, complete_episode_count: 2000.00, Gather time: 36.06s, Train time: 35.58s, Eval Time: 0.42s
+=====================================================
+Iteration: 20,  Mean reward: -133.16, Mean Entropy: 1.12, Mean collision: 78.50, Mean min dist: 123.54, Mean occupied landmark: 4.50, complete_episode_count: 2000.00, Gather time: 34.98s, Train time: 35.36s, Eval Time: 0.42s
+=====================================================
+Iteration: 21,  Mean reward: -125.77, Mean Entropy: 1.06, Mean collision: 75.90, Mean min dist: 111.29, Mean occupied landmark: 8.25, complete_episode_count: 2000.00, Gather time: 35.59s, Train time: 27.89s, Eval Time: 0.42s
+=====================================================
+Iteration: 22,  Mean reward: -133.06, Mean Entropy: 1.01, Mean collision: 79.50, Mean min dist: 118.93, Mean occupied landmark: 5.25, complete_episode_count: 2000.00, Gather time: 35.20s, Train time: 30.13s, Eval Time: 0.44s
+=====================================================
+Iteration: 23,  Mean reward: -130.48, Mean Entropy: 1.03, Mean collision: 77.20, Mean min dist: 118.39, Mean occupied landmark: 9.30, complete_episode_count: 2000.00, Gather time: 36.90s, Train time: 31.66s, Eval Time: 0.43s
+=====================================================
+Iteration: 24,  Mean reward: -131.94, Mean Entropy: 0.98, Mean collision: 77.30, Mean min dist: 111.08, Mean occupied landmark: 6.00, complete_episode_count: 2000.00, Gather time: 39.02s, Train time: 34.53s, Eval Time: 0.44s
+=====================================================
+Iteration: 25,  Mean reward: -129.98, Mean Entropy: 1.01, Mean collision: 79.00, Mean min dist: 103.06, Mean occupied landmark: 10.65, complete_episode_count: 2000.00, Gather time: 40.96s, Train time: 38.61s, Eval Time: 0.42s
+=====================================================
+Iteration: 26,  Mean reward: -123.95, Mean Entropy: 0.92, Mean collision: 76.70, Mean min dist: 109.38, Mean occupied landmark: 6.30, complete_episode_count: 2000.00, Gather time: 36.99s, Train time: 36.60s, Eval Time: 0.43s
+=====================================================
+Iteration: 27,  Mean reward: -133.27, Mean Entropy: 0.88, Mean collision: 77.30, Mean min dist: 126.62, Mean occupied landmark: 4.95, complete_episode_count: 2000.00, Gather time: 37.47s, Train time: 36.57s, Eval Time: 0.42s
+=====================================================
+Iteration: 28,  Mean reward: -131.35, Mean Entropy: 0.79, Mean collision: 78.80, Mean min dist: 107.49, Mean occupied landmark: 12.60, complete_episode_count: 2000.00, Gather time: 34.48s, Train time: 37.72s, Eval Time: 0.42s
+=====================================================
+Iteration: 29,  Mean reward: -141.15, Mean Entropy: 0.75, Mean collision: 78.00, Mean min dist: 121.65, Mean occupied landmark: 6.30, complete_episode_count: 2000.00, Gather time: 35.73s, Train time: 36.65s, Eval Time: 0.43s
+=====================================================
+Iteration: 30,  Mean reward: -137.72, Mean Entropy: 0.67, Mean collision: 77.50, Mean min dist: 121.73, Mean occupied landmark: 7.20, complete_episode_count: 2000.00, Gather time: 35.53s, Train time: 38.26s, Eval Time: 0.42s
+=====================================================
+Iteration: 31,  Mean reward: -140.98, Mean Entropy: 0.64, Mean collision: 76.40, Mean min dist: 133.10, Mean occupied landmark: 5.55, complete_episode_count: 2000.00, Gather time: 37.22s, Train time: 35.71s, Eval Time: 0.42s
+=====================================================
+Iteration: 32,  Mean reward: -138.76, Mean Entropy: 0.62, Mean collision: 76.80, Mean min dist: 125.38, Mean occupied landmark: 7.35, complete_episode_count: 2000.00, Gather time: 37.20s, Train time: 25.67s, Eval Time: 0.43s
+=====================================================
+Iteration: 33,  Mean reward: -145.80, Mean Entropy: 0.60, Mean collision: 78.50, Mean min dist: 123.10, Mean occupied landmark: 6.45, complete_episode_count: 2000.00, Gather time: 36.09s, Train time: 28.21s, Eval Time: 0.42s
+=====================================================
+Iteration: 34,  Mean reward: -135.69, Mean Entropy: 0.57, Mean collision: 76.10, Mean min dist: 119.70, Mean occupied landmark: 8.40, complete_episode_count: 2000.00, Gather time: 36.72s, Train time: 32.89s, Eval Time: 0.43s
+=====================================================
+Iteration: 35,  Mean reward: -136.97, Mean Entropy: 0.56, Mean collision: 77.10, Mean min dist: 123.61, Mean occupied landmark: 3.60, complete_episode_count: 2000.00, Gather time: 36.72s, Train time: 26.40s, Eval Time: 0.42s
+=====================================================
+Iteration: 36,  Mean reward: -142.10, Mean Entropy: 0.59, Mean collision: 77.70, Mean min dist: 123.28, Mean occupied landmark: 5.25, complete_episode_count: 2000.00, Gather time: 34.22s, Train time: 25.50s, Eval Time: 0.42s
+=====================================================
+Iteration: 37,  Mean reward: -137.41, Mean Entropy: 0.56, Mean collision: 77.40, Mean min dist: 115.84, Mean occupied landmark: 9.90, complete_episode_count: 2000.00, Gather time: 33.91s, Train time: 29.74s, Eval Time: 0.43s
+=====================================================
+Iteration: 38,  Mean reward: -139.79, Mean Entropy: 0.58, Mean collision: 76.60, Mean min dist: 115.99, Mean occupied landmark: 6.75, complete_episode_count: 2000.00, Gather time: 37.09s, Train time: 27.59s, Eval Time: 0.42s
+=====================================================
+Iteration: 39,  Mean reward: -137.54, Mean Entropy: 0.63, Mean collision: 77.20, Mean min dist: 118.54, Mean occupied landmark: 11.55, complete_episode_count: 2000.00, Gather time: 35.37s, Train time: 31.54s, Eval Time: 0.42s
+=====================================================
+Iteration: 40,  Mean reward: -141.23, Mean Entropy: 0.64, Mean collision: 76.30, Mean min dist: 117.07, Mean occupied landmark: 5.25, complete_episode_count: 2000.00, Gather time: 35.18s, Train time: 30.15s, Eval Time: 0.42s
+=====================================================
+Iteration: 41,  Mean reward: -135.77, Mean Entropy: 0.63, Mean collision: 77.90, Mean min dist: 110.47, Mean occupied landmark: 8.55, complete_episode_count: 2000.00, Gather time: 34.12s, Train time: 29.16s, Eval Time: 0.43s
+=====================================================
+Iteration: 42,  Mean reward: -125.64, Mean Entropy: 0.69, Mean collision: 76.10, Mean min dist: 101.66, Mean occupied landmark: 7.35, complete_episode_count: 2000.00, Gather time: 36.88s, Train time: 26.83s, Eval Time: 0.42s
+=====================================================
+Iteration: 43,  Mean reward: -135.53, Mean Entropy: 0.66, Mean collision: 77.50, Mean min dist: 112.10, Mean occupied landmark: 10.80, complete_episode_count: 2000.00, Gather time: 38.28s, Train time: 34.70s, Eval Time: 0.42s
+=====================================================
+Iteration: 44,  Mean reward: -130.32, Mean Entropy: 0.69, Mean collision: 75.80, Mean min dist: 101.35, Mean occupied landmark: 11.10, complete_episode_count: 2000.00, Gather time: 34.70s, Train time: 36.33s, Eval Time: 0.42s
+=====================================================
+Iteration: 45,  Mean reward: -130.70, Mean Entropy: 0.73, Mean collision: 76.80, Mean min dist: 113.54, Mean occupied landmark: 10.35, complete_episode_count: 2000.00, Gather time: 35.28s, Train time: 32.46s, Eval Time: 0.42s
+=====================================================
+Iteration: 46,  Mean reward: -128.83, Mean Entropy: 0.68, Mean collision: 77.40, Mean min dist: 109.40, Mean occupied landmark: 6.60, complete_episode_count: 2000.00, Gather time: 37.49s, Train time: 28.33s, Eval Time: 0.42s
+=====================================================
+Iteration: 47,  Mean reward: -126.76, Mean Entropy: 0.66, Mean collision: 77.00, Mean min dist: 104.91, Mean occupied landmark: 15.30, complete_episode_count: 2000.00, Gather time: 35.60s, Train time: 26.04s, Eval Time: 0.42s
+=====================================================
+Iteration: 48,  Mean reward: -124.44, Mean Entropy: 0.69, Mean collision: 76.20, Mean min dist: 106.86, Mean occupied landmark: 7.50, complete_episode_count: 2000.00, Gather time: 36.67s, Train time: 25.68s, Eval Time: 0.42s
+=====================================================
+Iteration: 49,  Mean reward: -129.93, Mean Entropy: 0.69, Mean collision: 78.30, Mean min dist: 115.97, Mean occupied landmark: 8.70, complete_episode_count: 2000.00, Gather time: 36.75s, Train time: 28.44s, Eval Time: 0.42s
+=====================================================
+Iteration: 50,  Mean reward: -131.33, Mean Entropy: 0.70, Mean collision: 76.20, Mean min dist: 117.72, Mean occupied landmark: 6.45, complete_episode_count: 2000.00, Gather time: 36.29s, Train time: 30.26s, Eval Time: 0.42s
+=====================================================
+Iteration: 51,  Mean reward: -131.52, Mean Entropy: 0.71, Mean collision: 77.30, Mean min dist: 120.95, Mean occupied landmark: 7.95, complete_episode_count: 2000.00, Gather time: 36.79s, Train time: 32.40s, Eval Time: 0.42s
+=====================================================
+Iteration: 52,  Mean reward: -129.96, Mean Entropy: 0.75, Mean collision: 77.30, Mean min dist: 109.14, Mean occupied landmark: 9.45, complete_episode_count: 2000.00, Gather time: 37.14s, Train time: 28.16s, Eval Time: 0.43s
+=====================================================
+Iteration: 53,  Mean reward: -126.34, Mean Entropy: 0.76, Mean collision: 77.10, Mean min dist: 109.94, Mean occupied landmark: 12.30, complete_episode_count: 2000.00, Gather time: 38.78s, Train time: 29.45s, Eval Time: 0.43s
+=====================================================
+Iteration: 54,  Mean reward: -121.81, Mean Entropy: 0.75, Mean collision: 77.30, Mean min dist: 91.84, Mean occupied landmark: 12.15, complete_episode_count: 2000.00, Gather time: 37.83s, Train time: 29.22s, Eval Time: 0.42s
+=====================================================
+Iteration: 55,  Mean reward: -120.18, Mean Entropy: 0.76, Mean collision: 77.30, Mean min dist: 99.49, Mean occupied landmark: 8.55, complete_episode_count: 2000.00, Gather time: 38.80s, Train time: 31.84s, Eval Time: 0.42s
+=====================================================
+Iteration: 56,  Mean reward: -121.98, Mean Entropy: 0.76, Mean collision: 77.10, Mean min dist: 104.69, Mean occupied landmark: 8.55, complete_episode_count: 2000.00, Gather time: 36.54s, Train time: 30.22s, Eval Time: 0.42s
+=====================================================
+Iteration: 57,  Mean reward: -121.66, Mean Entropy: 0.75, Mean collision: 77.40, Mean min dist: 101.18, Mean occupied landmark: 10.20, complete_episode_count: 2000.00, Gather time: 35.31s, Train time: 26.72s, Eval Time: 0.42s
+=====================================================
+Iteration: 58,  Mean reward: -120.19, Mean Entropy: 0.76, Mean collision: 76.80, Mean min dist: 98.54, Mean occupied landmark: 12.90, complete_episode_count: 2000.00, Gather time: 36.79s, Train time: 27.42s, Eval Time: 0.42s
+=====================================================
+Iteration: 59,  Mean reward: -120.75, Mean Entropy: 0.75, Mean collision: 77.60, Mean min dist: 92.35, Mean occupied landmark: 13.95, complete_episode_count: 2000.00, Gather time: 34.46s, Train time: 30.95s, Eval Time: 0.42s
+=====================================================
+Iteration: 60,  Mean reward: -126.53, Mean Entropy: 0.82, Mean collision: 76.70, Mean min dist: 105.44, Mean occupied landmark: 12.30, complete_episode_count: 2000.00, Gather time: 36.05s, Train time: 29.08s, Eval Time: 0.42s
+=====================================================
+Iteration: 61,  Mean reward: -118.58, Mean Entropy: 0.83, Mean collision: 76.10, Mean min dist: 93.82, Mean occupied landmark: 11.25, complete_episode_count: 2000.00, Gather time: 35.31s, Train time: 27.59s, Eval Time: 0.42s
+=====================================================
+Iteration: 62,  Mean reward: -117.71, Mean Entropy: 0.84, Mean collision: 76.80, Mean min dist: 96.34, Mean occupied landmark: 12.45, complete_episode_count: 2000.00, Gather time: 38.62s, Train time: 36.09s, Eval Time: 0.42s
+=====================================================
+Iteration: 63,  Mean reward: -115.15, Mean Entropy: 0.84, Mean collision: 77.70, Mean min dist: 83.76, Mean occupied landmark: 17.70, complete_episode_count: 2000.00, Gather time: 35.55s, Train time: 36.81s, Eval Time: 0.44s
+=====================================================
+Iteration: 64,  Mean reward: -118.70, Mean Entropy: 0.84, Mean collision: 76.70, Mean min dist: 101.32, Mean occupied landmark: 11.40, complete_episode_count: 2000.00, Gather time: 35.38s, Train time: 36.05s, Eval Time: 0.43s
+=====================================================
+Iteration: 65,  Mean reward: -120.59, Mean Entropy: 0.77, Mean collision: 76.80, Mean min dist: 99.51, Mean occupied landmark: 15.75, complete_episode_count: 2000.00, Gather time: 36.67s, Train time: 34.99s, Eval Time: 0.43s
+=====================================================
+Iteration: 66,  Mean reward: -119.81, Mean Entropy: 0.82, Mean collision: 77.10, Mean min dist: 90.68, Mean occupied landmark: 14.85, complete_episode_count: 2000.00, Gather time: 36.54s, Train time: 36.40s, Eval Time: 0.43s
+=====================================================
+Iteration: 67,  Mean reward: -117.52, Mean Entropy: 0.77, Mean collision: 77.20, Mean min dist: 90.78, Mean occupied landmark: 14.10, complete_episode_count: 2000.00, Gather time: 36.38s, Train time: 34.85s, Eval Time: 0.43s
+=====================================================
+Iteration: 68,  Mean reward: -119.00, Mean Entropy: 0.82, Mean collision: 76.70, Mean min dist: 99.19, Mean occupied landmark: 11.25, complete_episode_count: 2000.00, Gather time: 34.30s, Train time: 26.03s, Eval Time: 0.42s
+=====================================================
+Iteration: 69,  Mean reward: -115.71, Mean Entropy: 0.79, Mean collision: 75.90, Mean min dist: 96.70, Mean occupied landmark: 9.45, complete_episode_count: 2000.00, Gather time: 34.19s, Train time: 28.21s, Eval Time: 0.42s
+=====================================================
+Iteration: 70,  Mean reward: -117.88, Mean Entropy: 0.81, Mean collision: 78.10, Mean min dist: 91.10, Mean occupied landmark: 16.05, complete_episode_count: 2000.00, Gather time: 36.75s, Train time: 33.32s, Eval Time: 0.42s
+=====================================================
+Iteration: 71,  Mean reward: -116.84, Mean Entropy: 0.78, Mean collision: 77.80, Mean min dist: 86.58, Mean occupied landmark: 22.35, complete_episode_count: 2000.00, Gather time: 36.47s, Train time: 33.63s, Eval Time: 0.44s
+=====================================================
+Iteration: 72,  Mean reward: -117.22, Mean Entropy: 0.76, Mean collision: 78.00, Mean min dist: 88.37, Mean occupied landmark: 12.60, complete_episode_count: 2000.00, Gather time: 34.65s, Train time: 27.51s, Eval Time: 0.42s
+=====================================================
+Iteration: 73,  Mean reward: -114.42, Mean Entropy: 0.78, Mean collision: 77.30, Mean min dist: 85.33, Mean occupied landmark: 18.00, complete_episode_count: 2000.00, Gather time: 35.70s, Train time: 30.33s, Eval Time: 0.42s
+=====================================================
+Iteration: 74,  Mean reward: -113.26, Mean Entropy: 0.79, Mean collision: 77.00, Mean min dist: 87.42, Mean occupied landmark: 15.15, complete_episode_count: 2000.00, Gather time: 36.25s, Train time: 30.65s, Eval Time: 0.42s
+=====================================================
+Iteration: 75,  Mean reward: -113.70, Mean Entropy: 0.77, Mean collision: 76.50, Mean min dist: 90.24, Mean occupied landmark: 16.50, complete_episode_count: 2000.00, Gather time: 34.45s, Train time: 26.09s, Eval Time: 0.42s
+=====================================================
+Iteration: 76,  Mean reward: -117.49, Mean Entropy: 0.75, Mean collision: 78.20, Mean min dist: 85.56, Mean occupied landmark: 16.95, complete_episode_count: 2000.00, Gather time: 33.75s, Train time: 26.08s, Eval Time: 0.42s
+=====================================================
+Iteration: 77,  Mean reward: -115.83, Mean Entropy: 0.74, Mean collision: 77.20, Mean min dist: 88.93, Mean occupied landmark: 21.15, complete_episode_count: 2000.00, Gather time: 33.23s, Train time: 28.18s, Eval Time: 0.42s
+=====================================================
+Iteration: 78,  Mean reward: -111.18, Mean Entropy: 0.77, Mean collision: 77.80, Mean min dist: 82.15, Mean occupied landmark: 18.15, complete_episode_count: 2000.00, Gather time: 33.37s, Train time: 26.59s, Eval Time: 0.42s
+=====================================================
+Iteration: 79,  Mean reward: -110.52, Mean Entropy: 0.77, Mean collision: 77.20, Mean min dist: 81.28, Mean occupied landmark: 18.60, complete_episode_count: 2000.00, Gather time: 33.89s, Train time: 27.11s, Eval Time: 0.42s
+=====================================================
+Iteration: 80,  Mean reward: -112.98, Mean Entropy: 0.74, Mean collision: 77.40, Mean min dist: 83.85, Mean occupied landmark: 16.35, complete_episode_count: 2000.00, Gather time: 36.11s, Train time: 28.61s, Eval Time: 0.43s
+=====================================================
+Iteration: 81,  Mean reward: -109.78, Mean Entropy: 0.74, Mean collision: 76.90, Mean min dist: 74.83, Mean occupied landmark: 28.05, complete_episode_count: 2000.00, Gather time: 35.29s, Train time: 27.72s, Eval Time: 0.42s
+=====================================================
+Iteration: 82,  Mean reward: -112.52, Mean Entropy: 0.80, Mean collision: 77.30, Mean min dist: 84.49, Mean occupied landmark: 21.30, complete_episode_count: 2000.00, Gather time: 35.61s, Train time: 35.51s, Eval Time: 0.43s
+=====================================================
+Iteration: 83,  Mean reward: -110.75, Mean Entropy: 0.76, Mean collision: 76.40, Mean min dist: 81.00, Mean occupied landmark: 23.25, complete_episode_count: 2000.00, Gather time: 36.78s, Train time: 29.24s, Eval Time: 0.43s
+=====================================================
+Iteration: 84,  Mean reward: -112.70, Mean Entropy: 0.76, Mean collision: 76.80, Mean min dist: 85.73, Mean occupied landmark: 28.65, complete_episode_count: 2000.00, Gather time: 35.47s, Train time: 28.36s, Eval Time: 0.42s
+=====================================================
+Iteration: 85,  Mean reward: -116.21, Mean Entropy: 0.83, Mean collision: 77.00, Mean min dist: 88.62, Mean occupied landmark: 15.00, complete_episode_count: 2000.00, Gather time: 34.87s, Train time: 27.14s, Eval Time: 0.42s
+=====================================================
+Iteration: 86,  Mean reward: -110.50, Mean Entropy: 0.79, Mean collision: 77.10, Mean min dist: 78.37, Mean occupied landmark: 24.90, complete_episode_count: 2000.00, Gather time: 34.20s, Train time: 26.83s, Eval Time: 0.43s
+=====================================================
+Iteration: 87,  Mean reward: -110.22, Mean Entropy: 0.77, Mean collision: 76.30, Mean min dist: 80.59, Mean occupied landmark: 21.15, complete_episode_count: 2000.00, Gather time: 34.92s, Train time: 29.77s, Eval Time: 0.42s
+=====================================================
+Iteration: 88,  Mean reward: -106.99, Mean Entropy: 0.79, Mean collision: 77.50, Mean min dist: 68.08, Mean occupied landmark: 33.15, complete_episode_count: 2000.00, Gather time: 35.82s, Train time: 26.55s, Eval Time: 0.42s
+=====================================================
+Iteration: 89,  Mean reward: -110.88, Mean Entropy: 0.80, Mean collision: 76.60, Mean min dist: 79.19, Mean occupied landmark: 23.10, complete_episode_count: 2000.00, Gather time: 33.76s, Train time: 26.73s, Eval Time: 0.42s
+=====================================================
+Iteration: 90,  Mean reward: -110.72, Mean Entropy: 0.77, Mean collision: 76.80, Mean min dist: 78.42, Mean occupied landmark: 27.30, complete_episode_count: 2000.00, Gather time: 35.24s, Train time: 26.48s, Eval Time: 0.42s
+=====================================================
+Iteration: 91,  Mean reward: -105.89, Mean Entropy: 0.77, Mean collision: 77.50, Mean min dist: 68.38, Mean occupied landmark: 31.05, complete_episode_count: 2000.00, Gather time: 34.84s, Train time: 26.58s, Eval Time: 0.42s
+=====================================================
+Iteration: 92,  Mean reward: -109.10, Mean Entropy: 0.77, Mean collision: 77.20, Mean min dist: 76.08, Mean occupied landmark: 25.50, complete_episode_count: 2000.00, Gather time: 33.89s, Train time: 26.39s, Eval Time: 0.42s
+=====================================================
+Iteration: 93,  Mean reward: -107.71, Mean Entropy: 0.76, Mean collision: 76.40, Mean min dist: 72.55, Mean occupied landmark: 31.50, complete_episode_count: 2000.00, Gather time: 35.55s, Train time: 26.29s, Eval Time: 0.42s
+=====================================================
+Iteration: 94,  Mean reward: -108.45, Mean Entropy: 0.75, Mean collision: 76.30, Mean min dist: 76.93, Mean occupied landmark: 29.85, complete_episode_count: 2000.00, Gather time: 35.28s, Train time: 26.28s, Eval Time: 0.42s
+=====================================================
+Iteration: 95,  Mean reward: -106.67, Mean Entropy: 0.72, Mean collision: 76.90, Mean min dist: 67.50, Mean occupied landmark: 35.70, complete_episode_count: 2000.00, Gather time: 34.48s, Train time: 26.36s, Eval Time: 0.42s
+=====================================================
+Iteration: 96,  Mean reward: -107.65, Mean Entropy: 0.76, Mean collision: 77.80, Mean min dist: 70.88, Mean occupied landmark: 33.60, complete_episode_count: 2000.00, Gather time: 35.42s, Train time: 26.04s, Eval Time: 0.42s
+=====================================================
+Iteration: 97,  Mean reward: -102.77, Mean Entropy: 0.80, Mean collision: 76.70, Mean min dist: 62.38, Mean occupied landmark: 46.35, complete_episode_count: 2000.00, Gather time: 35.15s, Train time: 26.91s, Eval Time: 0.44s
+=====================================================
+Iteration: 98,  Mean reward: -107.03, Mean Entropy: 0.75, Mean collision: 78.10, Mean min dist: 66.91, Mean occupied landmark: 37.95, complete_episode_count: 2000.00, Gather time: 36.30s, Train time: 27.01s, Eval Time: 0.42s
+=====================================================
+Iteration: 99,  Mean reward: -107.56, Mean Entropy: 0.75, Mean collision: 77.40, Mean min dist: 68.64, Mean occupied landmark: 35.40, complete_episode_count: 2000.00, Gather time: 35.04s, Train time: 38.33s, Eval Time: 0.44s
+=====================================================
+Iteration: 100,  Mean reward: -109.50, Mean Entropy: 0.72, Mean collision: 76.00, Mean min dist: 77.12, Mean occupied landmark: 34.50, complete_episode_count: 2000.00, Gather time: 38.98s, Train time: 37.95s, Eval Time: 0.43s
+=====================================================
+Iteration: 101,  Mean reward: -107.12, Mean Entropy: 0.72, Mean collision: 78.50, Mean min dist: 64.99, Mean occupied landmark: 39.15, complete_episode_count: 2000.00, Gather time: 35.86s, Train time: 38.98s, Eval Time: 0.43s
+=====================================================
+Iteration: 102,  Mean reward: -101.66, Mean Entropy: 0.71, Mean collision: 75.70, Mean min dist: 62.25, Mean occupied landmark: 39.45, complete_episode_count: 2000.00, Gather time: 38.49s, Train time: 40.69s, Eval Time: 0.42s
+=====================================================
+Iteration: 103,  Mean reward: -106.76, Mean Entropy: 0.75, Mean collision: 76.00, Mean min dist: 72.33, Mean occupied landmark: 32.10, complete_episode_count: 2000.00, Gather time: 35.43s, Train time: 35.44s, Eval Time: 0.43s
+=====================================================
+Iteration: 104,  Mean reward: -109.40, Mean Entropy: 0.73, Mean collision: 77.20, Mean min dist: 79.27, Mean occupied landmark: 30.00, complete_episode_count: 2000.00, Gather time: 35.92s, Train time: 28.46s, Eval Time: 0.43s
+=====================================================
+Iteration: 105,  Mean reward: -104.62, Mean Entropy: 0.74, Mean collision: 77.20, Mean min dist: 66.96, Mean occupied landmark: 40.20, complete_episode_count: 2000.00, Gather time: 35.90s, Train time: 28.60s, Eval Time: 0.42s
+=====================================================
+Iteration: 106,  Mean reward: -102.64, Mean Entropy: 0.75, Mean collision: 75.90, Mean min dist: 66.99, Mean occupied landmark: 37.65, complete_episode_count: 2000.00, Gather time: 36.00s, Train time: 27.62s, Eval Time: 0.46s
+=====================================================
+Iteration: 107,  Mean reward: -107.22, Mean Entropy: 0.72, Mean collision: 77.40, Mean min dist: 73.08, Mean occupied landmark: 33.60, complete_episode_count: 2000.00, Gather time: 36.49s, Train time: 37.76s, Eval Time: 0.43s
+=====================================================
+Iteration: 108,  Mean reward: -109.46, Mean Entropy: 0.71, Mean collision: 77.90, Mean min dist: 76.00, Mean occupied landmark: 32.25, complete_episode_count: 2000.00, Gather time: 37.64s, Train time: 27.52s, Eval Time: 0.42s
+=====================================================
+Iteration: 109,  Mean reward: -107.33, Mean Entropy: 0.67, Mean collision: 76.90, Mean min dist: 70.42, Mean occupied landmark: 37.95, complete_episode_count: 2000.00, Gather time: 34.16s, Train time: 28.79s, Eval Time: 0.42s
+=====================================================
+Iteration: 110,  Mean reward: -106.47, Mean Entropy: 0.71, Mean collision: 78.20, Mean min dist: 64.58, Mean occupied landmark: 44.10, complete_episode_count: 2000.00, Gather time: 36.12s, Train time: 26.65s, Eval Time: 0.42s
+=====================================================
+Iteration: 111,  Mean reward: -108.16, Mean Entropy: 0.68, Mean collision: 76.40, Mean min dist: 74.58, Mean occupied landmark: 36.75, complete_episode_count: 2000.00, Gather time: 35.72s, Train time: 31.43s, Eval Time: 0.43s
+=====================================================
+Iteration: 112,  Mean reward: -103.49, Mean Entropy: 0.66, Mean collision: 76.90, Mean min dist: 61.70, Mean occupied landmark: 49.50, complete_episode_count: 2000.00, Gather time: 39.64s, Train time: 33.27s, Eval Time: 0.42s
+=====================================================
+Iteration: 113,  Mean reward: -102.72, Mean Entropy: 0.69, Mean collision: 76.00, Mean min dist: 59.52, Mean occupied landmark: 49.20, complete_episode_count: 2000.00, Gather time: 36.09s, Train time: 39.39s, Eval Time: 0.43s
+=====================================================
+Iteration: 114,  Mean reward: -108.66, Mean Entropy: 0.65, Mean collision: 76.20, Mean min dist: 77.06, Mean occupied landmark: 32.70, complete_episode_count: 2000.00, Gather time: 37.02s, Train time: 30.49s, Eval Time: 0.43s
+=====================================================
+Iteration: 115,  Mean reward: -107.80, Mean Entropy: 0.67, Mean collision: 77.60, Mean min dist: 71.15, Mean occupied landmark: 42.00, complete_episode_count: 2000.00, Gather time: 37.99s, Train time: 27.47s, Eval Time: 0.42s
+=====================================================
+Iteration: 116,  Mean reward: -106.47, Mean Entropy: 0.64, Mean collision: 78.00, Mean min dist: 62.77, Mean occupied landmark: 45.30, complete_episode_count: 2000.00, Gather time: 43.27s, Train time: 27.85s, Eval Time: 0.42s
+=====================================================
+Iteration: 117,  Mean reward: -104.09, Mean Entropy: 0.61, Mean collision: 76.80, Mean min dist: 63.04, Mean occupied landmark: 46.95, complete_episode_count: 2000.00, Gather time: 36.49s, Train time: 30.01s, Eval Time: 0.42s
+=====================================================
+Iteration: 118,  Mean reward: -105.58, Mean Entropy: 0.60, Mean collision: 76.50, Mean min dist: 68.57, Mean occupied landmark: 38.55, complete_episode_count: 2000.00, Gather time: 38.73s, Train time: 31.18s, Eval Time: 0.42s
+=====================================================
+Iteration: 119,  Mean reward: -105.65, Mean Entropy: 0.60, Mean collision: 78.00, Mean min dist: 63.92, Mean occupied landmark: 40.80, complete_episode_count: 2000.00, Gather time: 37.63s, Train time: 29.43s, Eval Time: 0.43s
+=====================================================
+Iteration: 120,  Mean reward: -104.77, Mean Entropy: 0.56, Mean collision: 77.20, Mean min dist: 64.78, Mean occupied landmark: 40.65, complete_episode_count: 2000.00, Gather time: 42.36s, Train time: 27.52s, Eval Time: 0.42s
+=====================================================
+Iteration: 121,  Mean reward: -109.16, Mean Entropy: 0.55, Mean collision: 76.70, Mean min dist: 74.22, Mean occupied landmark: 34.05, complete_episode_count: 2000.00, Gather time: 38.40s, Train time: 45.76s, Eval Time: 0.44s
+=====================================================
+Iteration: 122,  Mean reward: -107.08, Mean Entropy: 0.58, Mean collision: 76.40, Mean min dist: 71.19, Mean occupied landmark: 39.15, complete_episode_count: 2000.00, Gather time: 36.91s, Train time: 27.66s, Eval Time: 0.42s
+=====================================================
+Iteration: 123,  Mean reward: -105.13, Mean Entropy: 0.59, Mean collision: 77.00, Mean min dist: 70.45, Mean occupied landmark: 35.10, complete_episode_count: 2000.00, Gather time: 36.09s, Train time: 34.02s, Eval Time: 0.43s
+=====================================================
+Iteration: 124,  Mean reward: -103.11, Mean Entropy: 0.57, Mean collision: 77.20, Mean min dist: 57.34, Mean occupied landmark: 55.20, complete_episode_count: 2000.00, Gather time: 39.94s, Train time: 39.64s, Eval Time: 0.43s
+=====================================================
+Iteration: 125,  Mean reward: -104.91, Mean Entropy: 0.57, Mean collision: 78.10, Mean min dist: 64.68, Mean occupied landmark: 47.70, complete_episode_count: 2000.00, Gather time: 41.58s, Train time: 32.75s, Eval Time: 0.43s
+=====================================================
+Iteration: 126,  Mean reward: -102.91, Mean Entropy: 0.57, Mean collision: 76.00, Mean min dist: 61.13, Mean occupied landmark: 49.80, complete_episode_count: 2000.00, Gather time: 37.95s, Train time: 28.77s, Eval Time: 0.43s
+=====================================================
+Iteration: 127,  Mean reward: -104.80, Mean Entropy: 0.58, Mean collision: 76.90, Mean min dist: 63.76, Mean occupied landmark: 46.35, complete_episode_count: 2000.00, Gather time: 38.09s, Train time: 33.22s, Eval Time: 0.43s
+=====================================================
+Iteration: 128,  Mean reward: -106.40, Mean Entropy: 0.56, Mean collision: 76.50, Mean min dist: 71.90, Mean occupied landmark: 41.40, complete_episode_count: 2000.00, Gather time: 37.41s, Train time: 40.09s, Eval Time: 0.43s
+=====================================================
+Iteration: 129,  Mean reward: -111.84, Mean Entropy: 0.57, Mean collision: 76.80, Mean min dist: 78.99, Mean occupied landmark: 35.55, complete_episode_count: 2000.00, Gather time: 38.25s, Train time: 42.29s, Eval Time: 0.43s
+=====================================================
+Iteration: 130,  Mean reward: -102.70, Mean Entropy: 0.58, Mean collision: 76.80, Mean min dist: 64.70, Mean occupied landmark: 49.05, complete_episode_count: 2000.00, Gather time: 39.69s, Train time: 31.88s, Eval Time: 0.42s
+=====================================================
+Iteration: 131,  Mean reward: -106.24, Mean Entropy: 0.57, Mean collision: 77.20, Mean min dist: 63.07, Mean occupied landmark: 48.00, complete_episode_count: 2000.00, Gather time: 38.41s, Train time: 45.26s, Eval Time: 0.43s
+=====================================================
+Iteration: 132,  Mean reward: -101.66, Mean Entropy: 0.56, Mean collision: 76.00, Mean min dist: 61.68, Mean occupied landmark: 47.70, complete_episode_count: 2000.00, Gather time: 37.63s, Train time: 37.01s, Eval Time: 0.42s
+=====================================================
+Iteration: 133,  Mean reward: -107.01, Mean Entropy: 0.55, Mean collision: 76.90, Mean min dist: 66.39, Mean occupied landmark: 41.85, complete_episode_count: 2000.00, Gather time: 36.41s, Train time: 36.90s, Eval Time: 0.43s
+=====================================================
+Iteration: 134,  Mean reward: -107.34, Mean Entropy: 0.57, Mean collision: 76.20, Mean min dist: 70.99, Mean occupied landmark: 39.15, complete_episode_count: 2000.00, Gather time: 36.02s, Train time: 42.46s, Eval Time: 0.44s
+=====================================================
+Iteration: 135,  Mean reward: -104.14, Mean Entropy: 0.56, Mean collision: 77.50, Mean min dist: 62.07, Mean occupied landmark: 53.55, complete_episode_count: 2000.00, Gather time: 37.26s, Train time: 37.39s, Eval Time: 0.42s
+=====================================================
+Iteration: 136,  Mean reward: -107.21, Mean Entropy: 0.55, Mean collision: 77.20, Mean min dist: 69.49, Mean occupied landmark: 38.85, complete_episode_count: 2000.00, Gather time: 37.10s, Train time: 38.93s, Eval Time: 0.42s
+=====================================================
+Iteration: 137,  Mean reward: -104.23, Mean Entropy: 0.58, Mean collision: 77.50, Mean min dist: 65.20, Mean occupied landmark: 52.80, complete_episode_count: 2000.00, Gather time: 37.74s, Train time: 38.26s, Eval Time: 0.42s
+=====================================================
+Iteration: 138,  Mean reward: -105.45, Mean Entropy: 0.54, Mean collision: 76.70, Mean min dist: 67.58, Mean occupied landmark: 45.60, complete_episode_count: 2000.00, Gather time: 37.09s, Train time: 38.82s, Eval Time: 0.44s
+=====================================================
+Iteration: 139,  Mean reward: -107.51, Mean Entropy: 0.54, Mean collision: 77.90, Mean min dist: 68.50, Mean occupied landmark: 49.20, complete_episode_count: 2000.00, Gather time: 37.41s, Train time: 38.27s, Eval Time: 0.43s
+=====================================================
+Iteration: 140,  Mean reward: -102.53, Mean Entropy: 0.52, Mean collision: 77.20, Mean min dist: 56.02, Mean occupied landmark: 65.70, complete_episode_count: 2000.00, Gather time: 38.32s, Train time: 43.63s, Eval Time: 0.43s
+=====================================================
+Iteration: 141,  Mean reward: -103.51, Mean Entropy: 0.50, Mean collision: 76.20, Mean min dist: 61.07, Mean occupied landmark: 55.80, complete_episode_count: 2000.00, Gather time: 38.05s, Train time: 27.93s, Eval Time: 0.42s
+=====================================================
+Iteration: 142,  Mean reward: -101.57, Mean Entropy: 0.53, Mean collision: 76.80, Mean min dist: 58.46, Mean occupied landmark: 57.45, complete_episode_count: 2000.00, Gather time: 36.40s, Train time: 36.55s, Eval Time: 0.43s
+=====================================================
+Iteration: 143,  Mean reward: -103.78, Mean Entropy: 0.52, Mean collision: 76.50, Mean min dist: 64.01, Mean occupied landmark: 50.25, complete_episode_count: 2000.00, Gather time: 37.56s, Train time: 45.87s, Eval Time: 0.43s
+=====================================================
+Iteration: 144,  Mean reward: -102.05, Mean Entropy: 0.51, Mean collision: 76.70, Mean min dist: 57.98, Mean occupied landmark: 57.75, complete_episode_count: 2000.00, Gather time: 38.49s, Train time: 36.64s, Eval Time: 0.43s
+=====================================================
+Iteration: 145,  Mean reward: -101.24, Mean Entropy: 0.48, Mean collision: 76.00, Mean min dist: 58.15, Mean occupied landmark: 55.80, complete_episode_count: 2000.00, Gather time: 39.91s, Train time: 44.69s, Eval Time: 0.43s
+=====================================================
+Iteration: 146,  Mean reward: -106.86, Mean Entropy: 0.46, Mean collision: 76.70, Mean min dist: 67.21, Mean occupied landmark: 46.80, complete_episode_count: 2000.00, Gather time: 40.02s, Train time: 43.09s, Eval Time: 0.43s
+=====================================================
+Iteration: 147,  Mean reward: -101.38, Mean Entropy: 0.47, Mean collision: 76.70, Mean min dist: 58.45, Mean occupied landmark: 53.25, complete_episode_count: 2000.00, Gather time: 39.56s, Train time: 44.54s, Eval Time: 0.42s
+=====================================================
+Iteration: 148,  Mean reward: -103.41, Mean Entropy: 0.48, Mean collision: 76.70, Mean min dist: 62.25, Mean occupied landmark: 52.20, complete_episode_count: 2000.00, Gather time: 37.15s, Train time: 39.86s, Eval Time: 0.42s
+=====================================================
+Iteration: 149,  Mean reward: -103.56, Mean Entropy: 0.46, Mean collision: 79.00, Mean min dist: 58.17, Mean occupied landmark: 60.90, complete_episode_count: 2000.00, Gather time: 39.08s, Train time: 42.07s, Eval Time: 0.43s
+=====================================================
+Iteration: 150,  Mean reward: -106.62, Mean Entropy: 0.50, Mean collision: 76.70, Mean min dist: 65.45, Mean occupied landmark: 52.65, complete_episode_count: 2000.00, Gather time: 39.05s, Train time: 35.66s, Eval Time: 0.44s
+=====================================================
+Iteration: 151,  Mean reward: -104.64, Mean Entropy: 0.47, Mean collision: 78.10, Mean min dist: 56.11, Mean occupied landmark: 57.45, complete_episode_count: 2000.00, Gather time: 38.58s, Train time: 39.22s, Eval Time: 0.43s
+=====================================================
+Iteration: 152,  Mean reward: -101.65, Mean Entropy: 0.47, Mean collision: 77.20, Mean min dist: 56.91, Mean occupied landmark: 65.85, complete_episode_count: 2000.00, Gather time: 38.41s, Train time: 41.17s, Eval Time: 0.43s
+=====================================================
+Iteration: 153,  Mean reward: -103.63, Mean Entropy: 0.47, Mean collision: 77.70, Mean min dist: 60.82, Mean occupied landmark: 60.60, complete_episode_count: 2000.00, Gather time: 39.74s, Train time: 42.40s, Eval Time: 0.42s
+=====================================================
+Iteration: 154,  Mean reward: -105.96, Mean Entropy: 0.48, Mean collision: 76.10, Mean min dist: 65.55, Mean occupied landmark: 53.55, complete_episode_count: 2000.00, Gather time: 36.90s, Train time: 40.40s, Eval Time: 0.42s
+=====================================================
+Iteration: 155,  Mean reward: -104.53, Mean Entropy: 0.48, Mean collision: 78.30, Mean min dist: 57.97, Mean occupied landmark: 64.65, complete_episode_count: 2000.00, Gather time: 39.17s, Train time: 40.58s, Eval Time: 0.43s
+=====================================================
+Iteration: 156,  Mean reward: -104.89, Mean Entropy: 0.49, Mean collision: 76.90, Mean min dist: 61.61, Mean occupied landmark: 52.65, complete_episode_count: 2000.00, Gather time: 36.29s, Train time: 39.65s, Eval Time: 0.43s
+=====================================================
+Iteration: 157,  Mean reward: -102.11, Mean Entropy: 0.49, Mean collision: 77.10, Mean min dist: 55.37, Mean occupied landmark: 62.70, complete_episode_count: 2000.00, Gather time: 39.37s, Train time: 37.62s, Eval Time: 0.43s
+=====================================================
+Iteration: 158,  Mean reward: -104.84, Mean Entropy: 0.49, Mean collision: 76.80, Mean min dist: 63.00, Mean occupied landmark: 53.25, complete_episode_count: 2000.00, Gather time: 42.43s, Train time: 40.34s, Eval Time: 0.43s
+=====================================================
+Iteration: 159,  Mean reward: -101.74, Mean Entropy: 0.49, Mean collision: 76.10, Mean min dist: 58.56, Mean occupied landmark: 60.60, complete_episode_count: 2000.00, Gather time: 39.12s, Train time: 36.20s, Eval Time: 0.43s
+=====================================================
+Iteration: 160,  Mean reward: -105.85, Mean Entropy: 0.51, Mean collision: 77.70, Mean min dist: 64.71, Mean occupied landmark: 56.10, complete_episode_count: 2000.00, Gather time: 38.76s, Train time: 46.28s, Eval Time: 0.43s
+=====================================================
+Iteration: 161,  Mean reward: -103.94, Mean Entropy: 0.51, Mean collision: 77.80, Mean min dist: 62.73, Mean occupied landmark: 60.75, complete_episode_count: 2000.00, Gather time: 38.38s, Train time: 33.82s, Eval Time: 0.43s
+=====================================================
+Iteration: 162,  Mean reward: -100.72, Mean Entropy: 0.49, Mean collision: 77.20, Mean min dist: 55.43, Mean occupied landmark: 58.50, complete_episode_count: 2000.00, Gather time: 35.94s, Train time: 29.80s, Eval Time: 0.42s
+=====================================================
+Iteration: 163,  Mean reward: -103.93, Mean Entropy: 0.49, Mean collision: 77.40, Mean min dist: 56.86, Mean occupied landmark: 67.80, complete_episode_count: 2000.00, Gather time: 37.23s, Train time: 28.10s, Eval Time: 0.43s
+=====================================================
+Iteration: 164,  Mean reward: -105.68, Mean Entropy: 0.50, Mean collision: 77.60, Mean min dist: 60.60, Mean occupied landmark: 63.90, complete_episode_count: 2000.00, Gather time: 35.25s, Train time: 35.79s, Eval Time: 0.42s
+=====================================================
+Iteration: 165,  Mean reward: -100.84, Mean Entropy: 0.49, Mean collision: 77.30, Mean min dist: 54.55, Mean occupied landmark: 79.80, complete_episode_count: 2000.00, Gather time: 41.84s, Train time: 36.98s, Eval Time: 0.42s
+=====================================================
+Iteration: 166,  Mean reward: -106.28, Mean Entropy: 0.49, Mean collision: 78.20, Mean min dist: 60.15, Mean occupied landmark: 65.55, complete_episode_count: 2000.00, Gather time: 42.76s, Train time: 39.93s, Eval Time: 0.43s
+=====================================================
+Iteration: 167,  Mean reward: -96.56, Mean Entropy: 0.48, Mean collision: 77.10, Mean min dist: 46.30, Mean occupied landmark: 82.50, complete_episode_count: 2000.00, Gather time: 37.60s, Train time: 41.19s, Eval Time: 0.43s
+=====================================================
+Iteration: 168,  Mean reward: -104.18, Mean Entropy: 0.49, Mean collision: 76.00, Mean min dist: 65.92, Mean occupied landmark: 50.70, complete_episode_count: 2000.00, Gather time: 35.68s, Train time: 38.23s, Eval Time: 0.42s
+=====================================================
+Iteration: 169,  Mean reward: -102.07, Mean Entropy: 0.48, Mean collision: 77.30, Mean min dist: 58.40, Mean occupied landmark: 70.95, complete_episode_count: 2000.00, Gather time: 36.59s, Train time: 39.89s, Eval Time: 0.42s
+=====================================================
+Iteration: 170,  Mean reward: -100.57, Mean Entropy: 0.47, Mean collision: 78.00, Mean min dist: 52.15, Mean occupied landmark: 75.90, complete_episode_count: 2000.00, Gather time: 36.15s, Train time: 35.67s, Eval Time: 0.42s
+=====================================================
+Iteration: 171,  Mean reward: -108.32, Mean Entropy: 0.46, Mean collision: 79.40, Mean min dist: 62.39, Mean occupied landmark: 68.55, complete_episode_count: 2000.00, Gather time: 35.79s, Train time: 36.86s, Eval Time: 0.43s
+=====================================================
+Iteration: 172,  Mean reward: -101.33, Mean Entropy: 0.49, Mean collision: 76.90, Mean min dist: 55.78, Mean occupied landmark: 66.75, complete_episode_count: 2000.00, Gather time: 38.95s, Train time: 39.77s, Eval Time: 0.44s
+=====================================================
+Iteration: 173,  Mean reward: -99.21, Mean Entropy: 0.47, Mean collision: 76.50, Mean min dist: 51.89, Mean occupied landmark: 62.70, complete_episode_count: 2000.00, Gather time: 38.43s, Train time: 38.63s, Eval Time: 0.45s
+=====================================================
+Iteration: 174,  Mean reward: -100.57, Mean Entropy: 0.48, Mean collision: 75.70, Mean min dist: 59.31, Mean occupied landmark: 54.60, complete_episode_count: 2000.00, Gather time: 38.18s, Train time: 40.48s, Eval Time: 0.43s
+=====================================================
+Iteration: 175,  Mean reward: -103.79, Mean Entropy: 0.46, Mean collision: 77.20, Mean min dist: 58.55, Mean occupied landmark: 64.80, complete_episode_count: 2000.00, Gather time: 37.45s, Train time: 38.02s, Eval Time: 0.42s
+=====================================================
+Iteration: 176,  Mean reward: -102.24, Mean Entropy: 0.49, Mean collision: 76.40, Mean min dist: 58.43, Mean occupied landmark: 63.60, complete_episode_count: 2000.00, Gather time: 35.76s, Train time: 41.41s, Eval Time: 0.43s
+=====================================================
+Iteration: 177,  Mean reward: -107.05, Mean Entropy: 0.47, Mean collision: 77.70, Mean min dist: 67.47, Mean occupied landmark: 62.40, complete_episode_count: 2000.00, Gather time: 36.18s, Train time: 39.91s, Eval Time: 0.42s
+=====================================================
+Iteration: 178,  Mean reward: -103.70, Mean Entropy: 0.46, Mean collision: 76.20, Mean min dist: 63.61, Mean occupied landmark: 69.90, complete_episode_count: 2000.00, Gather time: 35.88s, Train time: 40.80s, Eval Time: 0.42s
+=====================================================
+Iteration: 179,  Mean reward: -106.11, Mean Entropy: 0.47, Mean collision: 77.70, Mean min dist: 63.37, Mean occupied landmark: 57.30, complete_episode_count: 2000.00, Gather time: 35.76s, Train time: 38.71s, Eval Time: 0.42s
+=====================================================
+Iteration: 180,  Mean reward: -99.99, Mean Entropy: 0.47, Mean collision: 75.70, Mean min dist: 58.18, Mean occupied landmark: 70.05, complete_episode_count: 2000.00, Gather time: 35.89s, Train time: 39.77s, Eval Time: 0.46s
+=====================================================
+Iteration: 181,  Mean reward: -100.81, Mean Entropy: 0.46, Mean collision: 76.50, Mean min dist: 58.07, Mean occupied landmark: 68.25, complete_episode_count: 2000.00, Gather time: 38.53s, Train time: 38.05s, Eval Time: 0.42s
+=====================================================
+Iteration: 182,  Mean reward: -102.52, Mean Entropy: 0.47, Mean collision: 77.10, Mean min dist: 54.44, Mean occupied landmark: 78.00, complete_episode_count: 2000.00, Gather time: 37.17s, Train time: 39.47s, Eval Time: 0.42s
+=====================================================
+Iteration: 183,  Mean reward: -105.04, Mean Entropy: 0.46, Mean collision: 78.30, Mean min dist: 58.16, Mean occupied landmark: 84.60, complete_episode_count: 2000.00, Gather time: 36.47s, Train time: 39.18s, Eval Time: 0.42s
+=====================================================
+Iteration: 184,  Mean reward: -106.25, Mean Entropy: 0.46, Mean collision: 78.00, Mean min dist: 65.22, Mean occupied landmark: 64.65, complete_episode_count: 2000.00, Gather time: 39.00s, Train time: 40.80s, Eval Time: 0.43s
+=====================================================
+Iteration: 185,  Mean reward: -100.39, Mean Entropy: 0.45, Mean collision: 76.70, Mean min dist: 50.63, Mean occupied landmark: 72.75, complete_episode_count: 2000.00, Gather time: 36.75s, Train time: 37.40s, Eval Time: 0.42s
+=====================================================
+Iteration: 186,  Mean reward: -101.43, Mean Entropy: 0.47, Mean collision: 76.40, Mean min dist: 56.32, Mean occupied landmark: 88.35, complete_episode_count: 2000.00, Gather time: 35.97s, Train time: 39.08s, Eval Time: 0.42s
+=====================================================
+Iteration: 187,  Mean reward: -105.84, Mean Entropy: 0.46, Mean collision: 77.30, Mean min dist: 62.27, Mean occupied landmark: 64.65, complete_episode_count: 2000.00, Gather time: 37.47s, Train time: 37.04s, Eval Time: 0.42s
+=====================================================
+Iteration: 188,  Mean reward: -101.70, Mean Entropy: 0.46, Mean collision: 77.20, Mean min dist: 55.40, Mean occupied landmark: 73.65, complete_episode_count: 2000.00, Gather time: 35.80s, Train time: 37.16s, Eval Time: 0.42s
+=====================================================
+Iteration: 189,  Mean reward: -101.52, Mean Entropy: 0.46, Mean collision: 76.70, Mean min dist: 57.23, Mean occupied landmark: 69.90, complete_episode_count: 2000.00, Gather time: 38.09s, Train time: 40.66s, Eval Time: 0.42s
+=====================================================
+Iteration: 190,  Mean reward: -99.92, Mean Entropy: 0.45, Mean collision: 77.20, Mean min dist: 52.63, Mean occupied landmark: 81.75, complete_episode_count: 2000.00, Gather time: 38.37s, Train time: 40.08s, Eval Time: 0.43s
+=====================================================
+Iteration: 191,  Mean reward: -104.15, Mean Entropy: 0.46, Mean collision: 76.50, Mean min dist: 57.91, Mean occupied landmark: 76.35, complete_episode_count: 2000.00, Gather time: 41.08s, Train time: 37.59s, Eval Time: 0.43s
+=====================================================
+Iteration: 192,  Mean reward: -102.14, Mean Entropy: 0.47, Mean collision: 75.70, Mean min dist: 64.84, Mean occupied landmark: 69.00, complete_episode_count: 2000.00, Gather time: 38.98s, Train time: 39.32s, Eval Time: 0.42s
+=====================================================
+Iteration: 193,  Mean reward: -101.25, Mean Entropy: 0.45, Mean collision: 75.70, Mean min dist: 61.87, Mean occupied landmark: 74.40, complete_episode_count: 2000.00, Gather time: 37.50s, Train time: 40.32s, Eval Time: 0.42s
+=====================================================
+Iteration: 194,  Mean reward: -103.14, Mean Entropy: 0.46, Mean collision: 77.40, Mean min dist: 55.77, Mean occupied landmark: 70.35, complete_episode_count: 2000.00, Gather time: 35.32s, Train time: 38.39s, Eval Time: 0.42s
+=====================================================
+Iteration: 195,  Mean reward: -104.51, Mean Entropy: 0.44, Mean collision: 77.30, Mean min dist: 59.15, Mean occupied landmark: 73.05, complete_episode_count: 2000.00, Gather time: 38.72s, Train time: 37.88s, Eval Time: 0.43s
+=====================================================
+Iteration: 196,  Mean reward: -99.77, Mean Entropy: 0.44, Mean collision: 77.60, Mean min dist: 50.42, Mean occupied landmark: 88.20, complete_episode_count: 2000.00, Gather time: 38.45s, Train time: 40.57s, Eval Time: 0.45s
+=====================================================
+Iteration: 197,  Mean reward: -104.38, Mean Entropy: 0.44, Mean collision: 75.80, Mean min dist: 70.67, Mean occupied landmark: 63.00, complete_episode_count: 2000.00, Gather time: 36.03s, Train time: 38.12s, Eval Time: 0.43s
+=====================================================
+Iteration: 198,  Mean reward: -101.16, Mean Entropy: 0.45, Mean collision: 77.00, Mean min dist: 51.98, Mean occupied landmark: 84.30, complete_episode_count: 2000.00, Gather time: 36.79s, Train time: 39.57s, Eval Time: 0.43s
+=====================================================
+Iteration: 199,  Mean reward: -100.12, Mean Entropy: 0.44, Mean collision: 76.90, Mean min dist: 52.53, Mean occupied landmark: 91.50, complete_episode_count: 2000.00, Gather time: 35.15s, Train time: 39.85s, Eval Time: 0.43s
+=====================================================
+Iteration: 200,  Mean reward: -99.72, Mean Entropy: 0.44, Mean collision: 77.20, Mean min dist: 49.19, Mean occupied landmark: 82.20, complete_episode_count: 2000.00, Gather time: 37.95s, Train time: 35.42s, Eval Time: 0.43s
+=====================================================
+Iteration: 201,  Mean reward: -101.74, Mean Entropy: 0.44, Mean collision: 76.60, Mean min dist: 55.91, Mean occupied landmark: 80.55, complete_episode_count: 2000.00, Gather time: 38.19s, Train time: 38.66s, Eval Time: 0.42s
+=====================================================
+Iteration: 202,  Mean reward: -105.05, Mean Entropy: 0.43, Mean collision: 76.50, Mean min dist: 61.86, Mean occupied landmark: 69.45, complete_episode_count: 2000.00, Gather time: 37.86s, Train time: 39.43s, Eval Time: 0.44s
+=====================================================
+Iteration: 203,  Mean reward: -103.14, Mean Entropy: 0.45, Mean collision: 76.30, Mean min dist: 60.62, Mean occupied landmark: 66.60, complete_episode_count: 2000.00, Gather time: 37.93s, Train time: 38.65s, Eval Time: 0.43s
+=====================================================
+Iteration: 204,  Mean reward: -104.67, Mean Entropy: 0.44, Mean collision: 76.10, Mean min dist: 64.73, Mean occupied landmark: 76.35, complete_episode_count: 2000.00, Gather time: 37.68s, Train time: 35.42s, Eval Time: 0.42s
+=====================================================
+Iteration: 205,  Mean reward: -102.66, Mean Entropy: 0.44, Mean collision: 78.10, Mean min dist: 55.65, Mean occupied landmark: 81.75, complete_episode_count: 2000.00, Gather time: 36.67s, Train time: 38.97s, Eval Time: 0.42s
+=====================================================
+Iteration: 206,  Mean reward: -100.73, Mean Entropy: 0.44, Mean collision: 75.80, Mean min dist: 52.25, Mean occupied landmark: 82.80, complete_episode_count: 2000.00, Gather time: 36.54s, Train time: 39.27s, Eval Time: 0.42s
+=====================================================
+Iteration: 207,  Mean reward: -100.92, Mean Entropy: 0.43, Mean collision: 76.00, Mean min dist: 56.80, Mean occupied landmark: 70.05, complete_episode_count: 2000.00, Gather time: 36.39s, Train time: 37.87s, Eval Time: 0.42s
+=====================================================
+Iteration: 208,  Mean reward: -104.38, Mean Entropy: 0.43, Mean collision: 77.20, Mean min dist: 59.13, Mean occupied landmark: 66.60, complete_episode_count: 2000.00, Gather time: 35.55s, Train time: 40.11s, Eval Time: 0.43s
+=====================================================
+Iteration: 209,  Mean reward: -102.32, Mean Entropy: 0.44, Mean collision: 76.70, Mean min dist: 59.75, Mean occupied landmark: 73.65, complete_episode_count: 2000.00, Gather time: 37.04s, Train time: 45.56s, Eval Time: 0.43s
+=====================================================
+Iteration: 210,  Mean reward: -99.88, Mean Entropy: 0.45, Mean collision: 75.60, Mean min dist: 56.48, Mean occupied landmark: 79.80, complete_episode_count: 2000.00, Gather time: 39.21s, Train time: 41.74s, Eval Time: 0.43s
+=====================================================
+Iteration: 211,  Mean reward: -100.57, Mean Entropy: 0.43, Mean collision: 77.70, Mean min dist: 53.70, Mean occupied landmark: 86.85, complete_episode_count: 2000.00, Gather time: 39.13s, Train time: 40.38s, Eval Time: 0.42s
+=====================================================
+Iteration: 212,  Mean reward: -100.44, Mean Entropy: 0.43, Mean collision: 77.50, Mean min dist: 53.85, Mean occupied landmark: 81.30, complete_episode_count: 2000.00, Gather time: 37.05s, Train time: 39.08s, Eval Time: 0.42s
+=====================================================
+Iteration: 213,  Mean reward: -99.30, Mean Entropy: 0.44, Mean collision: 77.30, Mean min dist: 55.64, Mean occupied landmark: 87.00, complete_episode_count: 2000.00, Gather time: 40.94s, Train time: 37.17s, Eval Time: 0.43s
+=====================================================
+Iteration: 214,  Mean reward: -100.81, Mean Entropy: 0.44, Mean collision: 76.50, Mean min dist: 54.88, Mean occupied landmark: 88.05, complete_episode_count: 2000.00, Gather time: 37.61s, Train time: 38.74s, Eval Time: 0.42s
+=====================================================
+Iteration: 215,  Mean reward: -103.16, Mean Entropy: 0.44, Mean collision: 78.10, Mean min dist: 56.52, Mean occupied landmark: 89.85, complete_episode_count: 2000.00, Gather time: 36.79s, Train time: 32.88s, Eval Time: 0.44s
+=====================================================
+Iteration: 216,  Mean reward: -102.46, Mean Entropy: 0.43, Mean collision: 76.90, Mean min dist: 54.05, Mean occupied landmark: 86.55, complete_episode_count: 2000.00, Gather time: 38.92s, Train time: 39.40s, Eval Time: 0.42s
+=====================================================
+Iteration: 217,  Mean reward: -100.39, Mean Entropy: 0.43, Mean collision: 77.10, Mean min dist: 52.58, Mean occupied landmark: 85.20, complete_episode_count: 2000.00, Gather time: 37.96s, Train time: 37.70s, Eval Time: 0.42s
+=====================================================
+Iteration: 218,  Mean reward: -97.96, Mean Entropy: 0.44, Mean collision: 76.60, Mean min dist: 49.07, Mean occupied landmark: 96.90, complete_episode_count: 2000.00, Gather time: 38.80s, Train time: 38.43s, Eval Time: 0.44s
+=====================================================
+Iteration: 219,  Mean reward: -101.37, Mean Entropy: 0.44, Mean collision: 76.10, Mean min dist: 55.41, Mean occupied landmark: 88.20, complete_episode_count: 2000.00, Gather time: 37.77s, Train time: 39.26s, Eval Time: 0.43s
+=====================================================
+Iteration: 220,  Mean reward: -102.39, Mean Entropy: 0.43, Mean collision: 77.70, Mean min dist: 59.19, Mean occupied landmark: 78.00, complete_episode_count: 2000.00, Gather time: 39.10s, Train time: 37.14s, Eval Time: 0.44s
+=====================================================
+Iteration: 221,  Mean reward: -99.39, Mean Entropy: 0.44, Mean collision: 75.80, Mean min dist: 50.70, Mean occupied landmark: 89.25, complete_episode_count: 2000.00, Gather time: 36.88s, Train time: 41.38s, Eval Time: 0.43s
+=====================================================
+Iteration: 222,  Mean reward: -97.37, Mean Entropy: 0.44, Mean collision: 76.40, Mean min dist: 49.57, Mean occupied landmark: 93.00, complete_episode_count: 2000.00, Gather time: 39.67s, Train time: 36.17s, Eval Time: 0.43s
+=====================================================
+Iteration: 223,  Mean reward: -101.80, Mean Entropy: 0.43, Mean collision: 75.90, Mean min dist: 52.79, Mean occupied landmark: 96.30, complete_episode_count: 2000.00, Gather time: 37.84s, Train time: 36.46s, Eval Time: 0.42s
+=====================================================
+Iteration: 224,  Mean reward: -98.70, Mean Entropy: 0.43, Mean collision: 76.00, Mean min dist: 52.93, Mean occupied landmark: 93.00, complete_episode_count: 2000.00, Gather time: 38.62s, Train time: 39.81s, Eval Time: 0.43s
+=====================================================
+Iteration: 225,  Mean reward: -98.98, Mean Entropy: 0.43, Mean collision: 76.40, Mean min dist: 52.26, Mean occupied landmark: 91.95, complete_episode_count: 2000.00, Gather time: 36.65s, Train time: 38.81s, Eval Time: 0.44s
+=====================================================
+Iteration: 226,  Mean reward: -98.89, Mean Entropy: 0.43, Mean collision: 76.90, Mean min dist: 50.19, Mean occupied landmark: 96.15, complete_episode_count: 2000.00, Gather time: 38.01s, Train time: 38.98s, Eval Time: 0.42s
+=====================================================
+Iteration: 227,  Mean reward: -101.89, Mean Entropy: 0.42, Mean collision: 76.90, Mean min dist: 52.59, Mean occupied landmark: 90.30, complete_episode_count: 2000.00, Gather time: 36.94s, Train time: 38.90s, Eval Time: 0.42s
+=====================================================
+Iteration: 228,  Mean reward: -98.69, Mean Entropy: 0.43, Mean collision: 75.90, Mean min dist: 55.25, Mean occupied landmark: 94.65, complete_episode_count: 2000.00, Gather time: 36.99s, Train time: 40.12s, Eval Time: 0.44s
+=====================================================
+Iteration: 229,  Mean reward: -98.33, Mean Entropy: 0.43, Mean collision: 76.10, Mean min dist: 52.52, Mean occupied landmark: 86.85, complete_episode_count: 2000.00, Gather time: 37.52s, Train time: 41.03s, Eval Time: 0.43s
+=====================================================
+Iteration: 230,  Mean reward: -102.27, Mean Entropy: 0.43, Mean collision: 76.80, Mean min dist: 54.35, Mean occupied landmark: 94.80, complete_episode_count: 2000.00, Gather time: 36.50s, Train time: 39.24s, Eval Time: 0.43s
+=====================================================
+Iteration: 231,  Mean reward: -102.76, Mean Entropy: 0.43, Mean collision: 76.60, Mean min dist: 54.82, Mean occupied landmark: 91.95, complete_episode_count: 2000.00, Gather time: 36.43s, Train time: 40.86s, Eval Time: 0.42s
+=====================================================
+Iteration: 232,  Mean reward: -102.60, Mean Entropy: 0.44, Mean collision: 76.90, Mean min dist: 54.68, Mean occupied landmark: 89.85, complete_episode_count: 2000.00, Gather time: 38.57s, Train time: 40.06s, Eval Time: 0.42s
+=====================================================
+Iteration: 233,  Mean reward: -98.95, Mean Entropy: 0.44, Mean collision: 76.90, Mean min dist: 49.54, Mean occupied landmark: 97.05, complete_episode_count: 2000.00, Gather time: 35.81s, Train time: 40.31s, Eval Time: 0.42s
+=====================================================
+Iteration: 234,  Mean reward: -100.56, Mean Entropy: 0.43, Mean collision: 76.60, Mean min dist: 56.39, Mean occupied landmark: 87.45, complete_episode_count: 2000.00, Gather time: 35.79s, Train time: 36.07s, Eval Time: 0.43s
+=====================================================
+Iteration: 235,  Mean reward: -100.26, Mean Entropy: 0.43, Mean collision: 76.20, Mean min dist: 55.11, Mean occupied landmark: 85.35, complete_episode_count: 2000.00, Gather time: 35.97s, Train time: 40.80s, Eval Time: 0.42s
+=====================================================
+Iteration: 236,  Mean reward: -99.21, Mean Entropy: 0.43, Mean collision: 75.90, Mean min dist: 53.87, Mean occupied landmark: 97.65, complete_episode_count: 2000.00, Gather time: 36.03s, Train time: 39.84s, Eval Time: 0.42s
+=====================================================
+Iteration: 237,  Mean reward: -101.05, Mean Entropy: 0.43, Mean collision: 77.60, Mean min dist: 53.26, Mean occupied landmark: 93.45, complete_episode_count: 2000.00, Gather time: 36.70s, Train time: 35.96s, Eval Time: 0.43s
+=====================================================
+Iteration: 238,  Mean reward: -103.51, Mean Entropy: 0.43, Mean collision: 77.90, Mean min dist: 54.91, Mean occupied landmark: 92.70, complete_episode_count: 2000.00, Gather time: 35.66s, Train time: 38.59s, Eval Time: 0.43s
+=====================================================
+ppo_lstm_sep_comb_nsp_c2b.py:369: UserWarning: This overload of nonzero is deprecated:
+	nonzero()
+Consider using one of the following signatures instead:
+	nonzero(*, bool as_tuple) (Triggered internally at  /pytorch/torch/csrc/utils/python_arg_parser.cpp:766.)
+  split_points = (terminals_tmp[:, i] == 1).nonzero() + 1
+Iteration: 239,  Mean reward: -98.52, Mean Entropy: 0.43, Mean collision: 75.80, Mean min dist: 52.07, Mean occupied landmark: 95.10, complete_episode_count: 2000.00, Gather time: 35.83s, Train time: 37.49s, Eval Time: 0.42s
+=====================================================
+Iteration: 240,  Mean reward: -99.44, Mean Entropy: 0.43, Mean collision: 76.40, Mean min dist: 49.92, Mean occupied landmark: 102.00, complete_episode_count: 2000.00, Gather time: 38.30s, Train time: 38.42s, Eval Time: 0.42s
+=====================================================
+Iteration: 241,  Mean reward: -102.11, Mean Entropy: 0.44, Mean collision: 77.30, Mean min dist: 54.65, Mean occupied landmark: 98.10, complete_episode_count: 2000.00, Gather time: 35.11s, Train time: 35.27s, Eval Time: 0.43s
+=====================================================
+Iteration: 242,  Mean reward: -100.93, Mean Entropy: 0.44, Mean collision: 77.30, Mean min dist: 52.85, Mean occupied landmark: 91.65, complete_episode_count: 2000.00, Gather time: 37.12s, Train time: 39.85s, Eval Time: 0.43s
+=====================================================
+Iteration: 243,  Mean reward: -97.05, Mean Entropy: 0.44, Mean collision: 76.20, Mean min dist: 49.19, Mean occupied landmark: 105.15, complete_episode_count: 2000.00, Gather time: 38.56s, Train time: 38.87s, Eval Time: 0.43s
+=====================================================
+Iteration: 244,  Mean reward: -100.81, Mean Entropy: 0.43, Mean collision: 76.60, Mean min dist: 53.57, Mean occupied landmark: 95.25, complete_episode_count: 2000.00, Gather time: 38.58s, Train time: 40.10s, Eval Time: 0.42s
+=====================================================
+Iteration: 245,  Mean reward: -98.50, Mean Entropy: 0.43, Mean collision: 78.20, Mean min dist: 46.09, Mean occupied landmark: 98.55, complete_episode_count: 2000.00, Gather time: 35.76s, Train time: 40.85s, Eval Time: 0.45s
+=====================================================
+Iteration: 246,  Mean reward: -102.81, Mean Entropy: 0.44, Mean collision: 76.90, Mean min dist: 59.68, Mean occupied landmark: 91.05, complete_episode_count: 2000.00, Gather time: 37.24s, Train time: 39.49s, Eval Time: 0.43s
+=====================================================
+Iteration: 247,  Mean reward: -101.56, Mean Entropy: 0.43, Mean collision: 75.70, Mean min dist: 57.19, Mean occupied landmark: 84.60, complete_episode_count: 2000.00, Gather time: 37.78s, Train time: 40.22s, Eval Time: 0.45s
+=====================================================
+Iteration: 248,  Mean reward: -100.16, Mean Entropy: 0.43, Mean collision: 76.40, Mean min dist: 48.90, Mean occupied landmark: 98.25, complete_episode_count: 2000.00, Gather time: 37.85s, Train time: 38.51s, Eval Time: 0.42s
+=====================================================
+Iteration: 249,  Mean reward: -101.66, Mean Entropy: 0.43, Mean collision: 76.90, Mean min dist: 53.89, Mean occupied landmark: 99.60, complete_episode_count: 2000.00, Gather time: 37.13s, Train time: 39.55s, Eval Time: 0.45s
+=====================================================
+Iteration: 250,  Mean reward: -98.02, Mean Entropy: 0.43, Mean collision: 76.10, Mean min dist: 51.21, Mean occupied landmark: 99.75, complete_episode_count: 2000.00, Gather time: 37.58s, Train time: 38.05s, Eval Time: 0.42s
+=====================================================
+
+wandb: Waiting for W&B process to finish, PID 103451
+wandb: Program ended successfully.
+wandb: Run summary:
+wandb:    complete_episode_count 2000.0
+wandb:                  _runtime 18238.287688970566
+wandb:           mean_collisions 76.0999984741211
+wandb:   mean_occupied_landmarks 99.75
+wandb:            mean_min_dists 51.20960235595703
+wandb:               critic_loss 4.391931056976318
+wandb:                     _step 250
+wandb:         mean_reward_train -101.00228881835938
+wandb:                actor_loss 0.279558926820755
+wandb:                 critic_lr 9.999999747378752e-06
+wandb:                _timestamp 1600605778.6151822
+wandb:               mean_reward -98.02108001708984
+wandb:               global_step 250
+wandb:            policy_entropy 0.4296102821826935
+wandb: Syncing 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: - 11.90MB of 11.90MB uploaded (0.00MB deduped)wandb: \ 11.90MB of 11.90MB uploaded (0.00MB deduped)wandb: | 11.90MB of 11.90MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced c2b_coslr_0.005_10:39:00: https://app.wandb.ai/kargarisaac/particle/runs/2110i30v
