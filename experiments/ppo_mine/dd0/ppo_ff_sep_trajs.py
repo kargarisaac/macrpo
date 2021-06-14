@@ -54,7 +54,6 @@ CAPTURE_VIDEO = False
 # --------------------------------- training settings ---------------------------------------
 # ===========================================================================================
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='PPO agent')
     parser.add_argument('--seed', type=int, default=1,
